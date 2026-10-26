@@ -30,6 +30,6 @@ export default class Player {
             ? totalTime / this.times.length
             : 0;
 
-        return `Total time: ${totalTime}\n Average time: ${averageTime}\n`
+        return `Total time: ${totalTime}\nAverage time: ${averageTime}`
     }
 }

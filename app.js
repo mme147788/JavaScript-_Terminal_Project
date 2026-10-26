@@ -33,7 +33,9 @@ function shuffle(array) {
     return array;
 }
 
-let playerName = prompt("Welcome to Riddles\n What is your name?")
+console.log("Welcome to Riddles")
+
+let playerName = prompt("What is your name? ")
 let player = new Player(playerName)
 
 shuffle(riddles)
@@ -44,14 +46,12 @@ let end
 
 
 
-for (let i = 
-    
-    0; i < riddles.length; i++) {
+for (let i = 0; i < riddles.length; i++) {
     let currentRiddle = riddles[i]
     if (currentRiddle.difficulty == level.trim().toLowerCase()) {
         start = Date.now()
        let newRiddle = new MultipleChoiceRiddle(currentRiddle)
-       let result= newRiddle.ask(prompt)
+       let result = newRiddle.ask(prompt)
         if(result>0){
             end+=result
         }

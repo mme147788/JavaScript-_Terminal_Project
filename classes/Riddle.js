@@ -24,11 +24,11 @@ export default class Riddle {
     }
 
     ask(prompt) {
-        console.log(`${this.name}:  ${this.taskDescription}\n`)
-        let answer = prompt("What is the answer?\n");
+        console.log(`${this.name}:  ${this.taskDescription} `)
+        let answer = prompt("What is the answer? ");
 
         while (answer!==this.correctAnswer) {
-           answer = prompt("Wrong! Try again\n");
+           answer = prompt("Wrong! Try again ");
         }
     }
     
