@@ -1,0 +1,86 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "name": "Your geography",
+      "taskDescription": "What is the capital of Israel?",
+      "correctAnswer": "Jerusalem",
+      "choices": [
+        "Tel-Aviv",
+        "Be'er-Sheva",
+        "Zefat",
+        "Jerusalem"
+      ],
+      "difficulty": "easy",
+      "timeLimit": 5000,
+      "hint": "The holiest city"
+    },
+    {
+      "id": 4,
+      "name": "Division",
+      "taskDescription": "What is 36 / 6?",
+      "correctAnswer": "6",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "difficulty": "easy",
+      "timeLimit": 3000,
+      "hint": "How many times does 6 fit into 36?"
+    },
+    {
+      "id": 5,
+      "name": "Number Pattern",
+      "taskDescription": "What comes next: 2, 4, 6, 8, ...?",
+      "correctAnswer": "10",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "difficulty": "hard",
+      "timeLimit": 8000,
+      "hint": "Look at the difference between consecutive numbers."
+    }
+  ],
+  "players": [
+    {
+      "id": 3,
+      "name": "miri",
+      "lowestTime": 10.317
+    },
+    {
+      "id": 4,
+      "name": "david",
+      "lowestTime": null
+    },
+    {
+      "id": 5,
+      "name": "yosef",
+      "lowestTime": null
+    },
+    {
+      "id": 6,
+      "name": "gigi",
+      "lowestTime": null
+    },
+    {
+      "id": 7,
+      "name": "levi",
+      "lowestTime": null
+    },
+    {
+      "id": 8,
+      "name": "mimi",
+      "lowestTime": null
+    },
+    {
+      "id": 10,
+      "name": "shaya",
+      "lowestTime": 2.399
+    }
+  ]
+}

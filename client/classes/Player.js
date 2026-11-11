@@ -11,13 +11,16 @@
 //   - show the total time and the average time per riddle
 
 export default class Player {
-    constructor(name) {
+    constructor(name, lowestTime = null) {
         this.name = name
         this.times = []
+        this.lowestTime = lowestTime
     }
 
     recordTime(start, end) {
-         return this.times.push((end - start) / 1000);
+        const time = (end - start) / 1000
+        this.times.push(time)
+        return time
     }
 
     showStats() {
